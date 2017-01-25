@@ -1,0 +1,6 @@
+framework module Pods_SocketRealTimeTableView {
+  umbrella header "Pods-SocketRealTimeTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

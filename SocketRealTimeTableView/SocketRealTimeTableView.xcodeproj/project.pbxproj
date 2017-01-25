@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32233CE08C8D80B6E4D81E6B /* Pods_SocketRealTimeTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3473C37C532CB996FD254C03 /* Pods_SocketRealTimeTableView.framework */; };
+		FF79A3271E353DF8005D944D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF79A3261E353DF8005D944D /* AppDelegate.swift */; };
+		FF79A3291E353DF8005D944D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF79A3281E353DF8005D944D /* ViewController.swift */; };
+		FF79A32C1E353DF8005D944D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF79A32A1E353DF8005D944D /* Main.storyboard */; };
+		FF79A32E1E353DF8005D944D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF79A32D1E353DF8005D944D /* Assets.xcassets */; };
+		FF79A3311E353DF8005D944D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF79A32F1E353DF8005D944D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3473C37C532CB996FD254C03 /* Pods_SocketRealTimeTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocketRealTimeTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B27511CA426BA1D67CE79B79 /* Pods-SocketRealTimeTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketRealTimeTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocketRealTimeTableView/Pods-SocketRealTimeTableView.release.xcconfig"; sourceTree = "<group>"; };
+		B3465ADF8D64EF727018FDCF /* Pods-SocketRealTimeTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketRealTimeTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocketRealTimeTableView/Pods-SocketRealTimeTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		FF79A3231E353DF8005D944D /* SocketRealTimeTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketRealTimeTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF79A3261E353DF8005D944D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF79A3281E353DF8005D944D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF79A32B1E353DF8005D944D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF79A32D1E353DF8005D944D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF79A3301E353DF8005D944D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF79A3321E353DF8005D944D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF79A3201E353DF7005D944D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32233CE08C8D80B6E4D81E6B /* Pods_SocketRealTimeTableView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		417A2DE3C946C5903C8EBDBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3473C37C532CB996FD254C03 /* Pods_SocketRealTimeTableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B069810E4238E8145A6B5F3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3465ADF8D64EF727018FDCF /* Pods-SocketRealTimeTableView.debug.xcconfig */,
+				B27511CA426BA1D67CE79B79 /* Pods-SocketRealTimeTableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF79A31A1E353DF7005D944D = {
+			isa = PBXGroup;
+			children = (
+				FF79A3251E353DF8005D944D /* SocketRealTimeTableView */,
+				FF79A3241E353DF8005D944D /* Products */,
+				B069810E4238E8145A6B5F3F /* Pods */,
+				417A2DE3C946C5903C8EBDBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF79A3241E353DF8005D944D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF79A3231E353DF8005D944D /* SocketRealTimeTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF79A3251E353DF8005D944D /* SocketRealTimeTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FF79A3261E353DF8005D944D /* AppDelegate.swift */,
+				FF79A3281E353DF8005D944D /* ViewController.swift */,
+				FF79A32A1E353DF8005D944D /* Main.storyboard */,
+				FF79A32D1E353DF8005D944D /* Assets.xcassets */,
+				FF79A32F1E353DF8005D944D /* LaunchScreen.storyboard */,
+				FF79A3321E353DF8005D944D /* Info.plist */,
+			);
+			path = SocketRealTimeTableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF79A3221E353DF7005D944D /* SocketRealTimeTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF79A3351E353DF8005D944D /* Build configuration list for PBXNativeTarget "SocketRealTimeTableView" */;
+			buildPhases = (
+				5C6AC395C1EE4AA36F9B5637 /* [CP] Check Pods Manifest.lock */,
+				FF79A31F1E353DF7005D944D /* Sources */,
+				FF79A3201E353DF7005D944D /* Frameworks */,
+				FF79A3211E353DF7005D944D /* Resources */,
+				2F6FAF80DA08B4D9822682FC /* [CP] Embed Pods Frameworks */,
+				0F54BFC78D9660F8C3EDF684 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRealTimeTableView;
+			productName = SocketRealTimeTableView;
+			productReference = FF79A3231E353DF8005D944D /* SocketRealTimeTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF79A31B1E353DF7005D944D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Hakan;
+				TargetAttributes = {
+					FF79A3221E353DF7005D944D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8ZY239GG83;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF79A31E1E353DF7005D944D /* Build configuration list for PBXProject "SocketRealTimeTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF79A31A1E353DF7005D944D;
+			productRefGroup = FF79A3241E353DF8005D944D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF79A3221E353DF7005D944D /* SocketRealTimeTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF79A3211E353DF7005D944D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF79A3311E353DF8005D944D /* LaunchScreen.storyboard in Resources */,
+				FF79A32E1E353DF8005D944D /* Assets.xcassets in Resources */,
+				FF79A32C1E353DF8005D944D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F54BFC78D9660F8C3EDF684 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocketRealTimeTableView/Pods-SocketRealTimeTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F6FAF80DA08B4D9822682FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocketRealTimeTableView/Pods-SocketRealTimeTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C6AC395C1EE4AA36F9B5637 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF79A31F1E353DF7005D944D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF79A3291E353DF8005D944D /* ViewController.swift in Sources */,
+				FF79A3271E353DF8005D944D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF79A32A1E353DF8005D944D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF79A32B1E353DF8005D944D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF79A32F1E353DF8005D944D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF79A3301E353DF8005D944D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF79A3331E353DF8005D944D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF79A3341E353DF8005D944D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF79A3361E353DF8005D944D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3465ADF8D64EF727018FDCF /* Pods-SocketRealTimeTableView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8ZY239GG83;
+				INFOPLIST_FILE = SocketRealTimeTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hakanozer.com.tr.SocketRealTimeTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FF79A3371E353DF8005D944D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B27511CA426BA1D67CE79B79 /* Pods-SocketRealTimeTableView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8ZY239GG83;
+				INFOPLIST_FILE = SocketRealTimeTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hakanozer.com.tr.SocketRealTimeTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF79A31E1E353DF7005D944D /* Build configuration list for PBXProject "SocketRealTimeTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF79A3331E353DF8005D944D /* Debug */,
+				FF79A3341E353DF8005D944D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF79A3351E353DF8005D944D /* Build configuration list for PBXNativeTarget "SocketRealTimeTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF79A3361E353DF8005D944D /* Debug */,
+				FF79A3371E353DF8005D944D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF79A31B1E353DF7005D944D /* Project object */;
+}
